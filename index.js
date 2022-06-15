@@ -37,7 +37,7 @@ const App = () => {
   return (
     <div>
       <div className="header">
-        <span className="title">Simple CRUD app</span>
+        <span className="title">Simple CRUD App</span>
         <button onClick={toggleModal}>Add new</button>
       </div>
       <DataItem data={userData} onEdit={editUserHandler} onDelete={deleteUser} />
